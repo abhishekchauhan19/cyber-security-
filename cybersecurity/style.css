@@ -1,0 +1,113 @@
+main img {
+    animation: cyber 4s linear 1s infinite alternate-reverse;
+}
+
+@keyframes cyber {
+    0% {
+        filter: blur(10px) hue-rotate(0deg);
+    }
+    100% {
+        filter: blur(0px) hue-rotate(360deg);
+    }
+}
+.about{
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px magenta;
+}
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 80%;
+    position: relative;
+    border: solid 2px red;
+    background: rgba(0, 0, 0, 0.8);
+}
+.service-box {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px cyan;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.service-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px magenta;
+}
+.contact {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+    color: #fff;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.contact h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.contact p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #0ff;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact label {
+    text-align: left;
+    font-weight: bold;
+    color: cyan;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    background: #111;
+    border: 1px solid cyan;
+    color: #0ff;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.contact textarea {
+    height: 100px;
+    resize: none;
+}
+
+.contact input[type="submit"] {
+    background: cyan;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact input[type="submit"]:hover {
+    background: #0ff;
+    box-shadow: 0 0 10px cyan;
+}
+a {
+    text-decoration: none; 
+    color: inherit; 
+    font-weight: inherit; 
+}
+
+a:hover, a:focus, a:active, a:visited {
+    text-decoration: none;
+    color: inherit; 
+}
+

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cyber consulting</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background: linear-gradient(to bottom, rgb(10, 10, 20), rgb(20, 0, 40)); color: white; font-family: Arial, sans-serif;background-image: url(background\ img.webp);padding-top: 4vh;">
+    <header style="background: linear-gradient(to bottom, rgb(10, 10, 20), rgb(20, 0, 40)); padding: 10px;">
+        <h1 style="text-align: center; color: rgb(0,255,255)">Cyber Consulting</h1>
+    </header>
+    <nav style=" background: rgba(0, 0, 0, 0.8);box-shadow: 0 0 10px cyan; padding: 10px;">
+        <ul style="list-style-type: none; display: flex; justify-content: center;">
+            <li style="margin: 0 10px;"><a href="main.html" style="text-decoration: none; color: rgb(0, 170, 255);">Home</a></li>
+            <li style="margin: 0 10px;"><a href="#about" style="text-decoration: none; color:rgb(0, 170, 255);">About</a></li>
+            <li style="margin: 0 10px;"><a href="#services-container" style="text-decoration: none; color:rgb(0, 170, 255);">Services</a></li>
+            <li style="margin: 0 10px;"><a href="#contact" style="text-decoration: none; color:rgb(0, 170, 255);">Contact</a></li>
+        </ul>
+    </nav>
+    <main style="  background: rgba(0, 0, 0, 0.8);box-shadow: 0 0 10px cyan; text-align: center; color: rgb(200, 200, 200);">
+        <img src="cybersecurity.jpg" alt="Cybersecurity" style="width: 50%; border-radius: 10px; margin: 10px; box-shadow: 5px 5px 5px black; ">
+        <h2 style=" color: rgb(0,255,255)" id ="effect"></h2>
+        <p>At Cyber Consulting, we provide a wide range of services to help you protect your business from cyber threats. Our team of experts has years of experience in the field and can help you develop a comprehensive security strategy that meets your needs. Whether you need help with network security, data protection, or compliance, we have the knowledge and expertise to get the job done.</p>
+        <p style="margin-bottom: unset;padding-bottom:10px ;">Our goal is to help you protect your business from cyber threats and keep your data safe. We understand that every business is different, which is why we take the time to get to know your unique needs and develop a customized security solution that works for you. With Cyber Consulting on your side, you can rest easy knowing that your business is in good hands.</p>
+    </main>
+    <main class="about" id="about" style=" background: rgba(0, 0, 0, 0.8);box-shadow: 0 0 10px cyan;
+    transition: transform 0.3s, box-shadow 0.3s;">
+    <h2 style="text-align: center; color: rgb(0,255,255);margin-top: unset;">About Us</h2>
+        <p>Welcome to <strong>Cyber Consulting</strong> – your trusted partner in cybersecurity, AI automation, and ethical hacking. We provide cutting-edge solutions to safeguard businesses from digital threats.</p>
+        
+        <h3>🚀 Our Mission</h3>
+        <p>To empower organizations with advanced security, AI-driven solutions, and ethical hacking expertise, ensuring a safer digital future.</p>
+        
+        <h3>💡 Why Choose Us?</h3>
+        <ul>
+          <li>✅ Expert Cybersecurity Team</li>
+          <li>✅ AI & Automation Security Solutions</li>
+          <li>✅ Custom Security Strategies</li>
+          <li>✅ 24/7 Support & Consulting</li>
+        </ul>
+        
+        <h3>🔹 Our Expertise</h3>
+        <ul>
+          <li>✔ Ethical Hacking & Penetration Testing</li>
+          <li>✔ AI-Powered Cyber Defense</li>
+          <li>✔ Network Security & Data Protection</li>
+          <li>✔ Cyber Risk Assessment & Compliance</li>
+        </ul>
+        
+        <p style="margin-bottom: unset;">Join us in making the digital world a safer place! Contact us today.</p>
+    </main>
+<div class="service-container" id="services-container">
+<h2 style=" color: rgb(0,255,255);text-align: center;background: rgba(0, 0, 0, 0.8);margin: unset;padding: 2%;">Our Services</h2>
+<div class="service-box">
+<div class="icon">🔒</div>
+<h3><a href="ethical.html">Hacking</a></h3>
+</div>
+<div class="service-box">
+<div class="icon">🤖</div>
+<h3><a href="ai-automation.html">AI Automation</a></h3>
+</div>
+<div class="service-box">
+<div class="icon">🔧</div>
+<h3>Cybersecurity</h3>
+</div>
+<div class="service-box">
+<div class="icon">⚙️</div>
+<h3>Penetration Testing</h3>
+</div>
+<div class="service-box">
+<div class="icon">☁️</div>
+<h3>Cloud Security</h3>
+</div>
+<div class="service-box">
+<div class="icon">💾</div>
+<h3>Data Protection</h3>
+</div>
+<div class="service-box">
+<div class="icon">💻</div>
+<h3>Tech Consulting</h3>
+</div>
+<div class="service-box">
+<div class="icon">🛠️</div>
+<h3>Malware Analysis</h3>
+</div>
+<div class="service-box">
+    <div class="icon">🎓</div>
+        <h3>Forensic Investigation</h3>
+    </div>
+</div>
+<main class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>Have a question or need help with your cybersecurity strategy? Contact us today!</p>
+    <form action="contact.php" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" required></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+</main>
+    <footer style="background: linear-gradient(to bottom, rgb(10, 10, 20), rgb(20, 0, 40));padding: 10px; text-align: center;">
+        <p>&copy; 2021 Cyber Consulting. All rights reserved.</p>
+        <p>@abhishek</p>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
